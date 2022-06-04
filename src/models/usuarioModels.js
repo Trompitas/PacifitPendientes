@@ -9,6 +9,10 @@ const usuarioSchema = Schema({
     type: Number,
     requiered: true,
   },
+  masculinofemenino: {
+    type: String,
+    required: true,
+  },
   estadoSolicitud: {
     type: Number,
     requiered: true,
