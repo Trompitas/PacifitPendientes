@@ -17,6 +17,10 @@ const usuarioSchema = Schema({
     type: Number,
     requiered: true,
     default: 0,
+  },
+  nombreUsuario: {
+    type: String,
+    required: true,
   }
 },
   {
