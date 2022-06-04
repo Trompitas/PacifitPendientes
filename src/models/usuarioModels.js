@@ -5,10 +5,6 @@ const usuarioSchema = Schema({
     type: String,
     required: true,
   },
-  primerApellido:{
-    type: String,
-    required: true,
-  },
   cantidadRepeticiones: {
     type: Number,
     requiered: true,
